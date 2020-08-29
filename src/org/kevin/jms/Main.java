@@ -39,8 +39,7 @@ public class Main {
         consumer.setMessageListener(new MessageListener() {
             @Override
             public void onMessage(Message message) {
-                System.out.println("ok");
- 
+       
                 AQjmsAdtMessage adtMessage = (AQjmsAdtMessage) message;
  
                 try {
